@@ -6,7 +6,9 @@
   <script src="../scripts/form.js"></script>
 </head>
 <body>
-    <h1 id="title">Not Changed</h1>
+	<!-- Creates H1 that changes depending on the password submitted in the form -->
+    <h1 id="title">Not Changed</h1> 
+    <!-- Creates a form that intakes a username, email, and password -->
     <form>
         <label for="user">Username:</label><br>
         <input type="text" id="user"></input><br><br>
@@ -15,6 +17,9 @@
         <label for="pass">Password:</label><br>
         <input type="text" id="pass"></input><br><br>
     </form>
+
+    <!-- Creates a button that checks if the password is 12345678 when pressed. If the password matches, it would 
+    change the H1 element's text to "Changed". If it doesn't match, it would send a alert stating "Incorrect" -->
     <button onclick="checkPass()">Submit</button>
 </body>
 </html>
