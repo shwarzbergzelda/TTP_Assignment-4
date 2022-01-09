@@ -2,19 +2,38 @@
 <html>
 
 <head>
-    <style href="/styles/arguingButtons.css" rel="stylesheet"></style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="/styles/arguingButtons.css" rel="stylesheet" type="text/css" />
     <meta charset="UTF-8" />
     <title>Arguing Buttons</title>
     <script type="text/javascript" src="/scripts/arguingButtons.js"></script>
 </head>
 
 <body>
-    <div class="arguments">
-            <button type="button" id="arguing-button-1">Arguing button #1</button>
-            <p id="argument-text"></p>
 
-            <button type="button" id="arguing-button-2">Arguing button #2</button>
-    </div>
+    <h1 class="instructions">Click on either disputant to begin arguing and alternate clicks to continue argument!</h1>
+
+    <!-- .boxing-ring is where the disputants- the emojis- get to argue and have it out! -->
+    <main class="boxing-ring">
+        <input type="button" id="arguing-button-1" title="angry red emoji" />
+
+        <div id="sparring-match">
+
+            <!-- places image tag of speech bubble here and styled as "display: none" in CSS file.
+                 JS file changes display to "block," aka visible, if either emoji is clicked. JS file 
+                 handles determining which speech bubble to display (so that it points in the direction
+                of the disputants) -->
+            <img src="/images/speech-bubble-left.png" alt="speech bubble pointing to emoji" id="speech-bubble" />
+            
+            <!-- JS file determines which text, if any, to display in generateArgumentText() -->
+            <p id="argument-text"></p>
+        </div>
+
+        <input type="button" id="arguing-button-2" title="angry red emoji" />
+    </main>
+
 </body>
 
 </html>
