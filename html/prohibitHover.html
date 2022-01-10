@@ -2,12 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title></title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../styles/prohibitHover.css">
+    <script src="../scripts/prohibitHover.js"></script>
   </head>
+
   <body>
-	<script src="index.js"></script>
+
+    <!-- div containing "dont hover over me" -->
+    <div class="box" onmouseover="alarm(this)">
+      <h1 class="box-text"> Don't Hover Over Me</h1>
+    </div>
+    
   </body>
+
+  <footer>
+    <h2 class="header">Click <a href="../index.html">HERE</a> to navigate back to the home page</h2>
+  </footer>
 </html>
