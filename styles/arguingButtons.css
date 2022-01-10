@@ -77,11 +77,13 @@ body {
     transform: translateX(10%);
 }
 
-.header {
+footer {
     font-family:'Press Start 2P', cursive;
-    font-size: 15px;
+    font-size: 10px;
     text-align: center;
-    transform: translateY(375%);
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
 }
 
 .header a:visited {

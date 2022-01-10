@@ -1,5 +1,50 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
 body {
     background-color: rgb(46, 45, 45);
     color: rgb(211, 207, 207);
     font-family: 'Barlow Semi Condensed', sans-serif;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#sphere-radius {
+    width: 300px;
+    height: 50px;
+    font-size: 40px;
+}
+
+#submit-radius {
+    height: 56px;
+    width: 100px;
+    display: table-cell;
+    vertical-align: top;
+    color: rgb(37, 36, 36);
+    white: white;
+}
+
+#display-volume {
+    display: table;
+    vertical-align:sub;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+footer > .header {
+    margin-bottom: 30px;
+}
+
+.header a:visited {
+    color: inherit;
 }
