@@ -13,7 +13,7 @@ window.onload = function() {
     arguingButton1.addEventListener("click", () => {
         generateArgumentText(1);
         argumentText.style.color = "#A52A2A";
-        speechBubble.src = "../images/speech-bubble-left.png";
+        speechBubble.src = "/images/speech-bubble-left.png";
         speechBubble.alt = "speech bubble pointing to red emoji";
         speechBubble.style.display = "block";
         prevButtonClicked = 1;
@@ -23,7 +23,7 @@ window.onload = function() {
     arguingButton2.addEventListener("click", () => {
         generateArgumentText(2);
         argumentText.style.color = "#4CBB17";
-        speechBubble.src = "../images/speech-bubble-right.png";
+        speechBubble.src = "/images/speech-bubble-right.png";
         speechBubble.alt = "speech bubble pointing to green emoji";
         speechBubble.style.display = "block";
         prevButtonClicked = 2;

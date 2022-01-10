@@ -27,7 +27,7 @@ body {
 #arguing-button-1 {
     width: 350px;
     height: 350px;
-    background-image: url("../images/angry-red-emoji.png");
+    background-image: url("/images/angry-red-emoji.png");
     background-size: cover;
     border: none;
     background-color: transparent;
@@ -42,7 +42,7 @@ body {
 #arguing-button-2 {
     width: 300px;
     height: 405px;
-    background-image: url("../images/angry-green-emoji.png");
+    background-image: url("/images/angry-green-emoji.png");
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
