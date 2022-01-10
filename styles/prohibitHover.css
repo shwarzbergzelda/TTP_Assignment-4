@@ -1,0 +1,33 @@
+body {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+/* box div centered vertically and horizontally */
+.box {
+    position: relative;
+    background-color: lightskyblue;
+    width: 350px;
+    height: 250px;
+    margin: auto;
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-text {
+    text-align: center;
+    color: white;
+}
+
+/* Nav anchored to the bottom */
+footer {
+    color: lightskyblue;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 50px;
+}
