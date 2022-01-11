@@ -1,7 +1,7 @@
 # TTP_Assignment-4
 
 ## Live Site Link:
-https://shwarzbergzelda.github.io/
+[https://shwarzbergzelda.github.io/](https://shwarzbergzelda.github.io/)
 
 ## Goal:
 Further demonstrate understanding of DOM manipulation, events, and forms. Build familiarity with JS syntax.
